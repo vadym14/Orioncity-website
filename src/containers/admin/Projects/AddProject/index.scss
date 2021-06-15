@@ -1,0 +1,52 @@
+.addProject {
+  nav {
+    display: table !important;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 40px 0 15px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    overflow: hidden;
+  }
+
+  .btnNewUnit {
+    float: right;
+  }
+
+  .form-group {
+    label {
+      margin-bottom: 7px;
+      font-size: 14px;
+      font-weight: normal;
+    }
+
+    input {
+      border: 1px solid #ddd;
+    }
+  }
+
+  .customRadioGroup {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+
+    label {
+      margin: 0 40px 0 10px;
+    }
+  }
+
+  .actions {
+    text-align: center;
+    margin-top: 15px;
+
+    button {
+      margin: 0 10px;
+      width: 100px;
+    }
+  }
+}

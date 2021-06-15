@@ -1,0 +1,32 @@
+.myProjectContent {
+  width: 100%;
+  overflow: hidden;
+  padding: 60px 0;
+  box-sizing: border-box;
+
+  .contentLeft {
+    height: 100%;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    h1.title {
+      margin-bottom: 30px;
+      text-align: center;
+      color: #fff;
+    }
+  }
+
+  .mt-40 {
+    margin-top: 40px;
+  }
+
+  .infoImage {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+}

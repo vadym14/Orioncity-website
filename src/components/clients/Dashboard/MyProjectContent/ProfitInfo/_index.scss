@@ -1,0 +1,38 @@
+.profitInfo {
+  width: 100%;
+  margin-bottom: 30px;
+
+  table {
+    width: 100%;
+    background: #fff;
+
+    tbody {
+      tr {
+        td {
+          font-size: 13px;
+          padding: 5px 7px;
+        }
+      }
+    }
+
+    .textCenter {
+      text-align: center;
+    }
+
+    .textBold {
+      font-weight: bold;
+    }
+
+    .textRed {
+      color: red;
+    }
+
+    .bgWhiteBlue {
+      background: #03c4ff;
+    }
+
+    .bgDark {
+      background: #e2e2e2;
+    }
+  }
+}

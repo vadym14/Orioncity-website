@@ -1,0 +1,52 @@
+// Here you can add other styles
+body {
+  background: #bbbbbb;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(207, 207, 207);
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(107, 106, 106);
+  border-radius: 5px;
+}
+
+.form-group {
+  label {
+    color: #666;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+    transition: none;
+  }
+
+  .textError {
+    color: #fd3c3c !important;
+  }
+}
+
+@media(min-width: 991px) {
+  .container {
+    width: 980px;
+  }
+}

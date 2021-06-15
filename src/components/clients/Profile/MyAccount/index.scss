@@ -1,0 +1,163 @@
+.myAccount {
+  width: 100%;
+  padding: 0 15px 30px;
+  box-sizing: border-box;
+
+  .nav-tabs {
+    border: none;
+
+    .nav-item {
+      a {
+        margin: 0;
+        border: none;
+        background: none;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px 5px;
+        border-top: 5px solid #fff;
+        border-radius: 0;
+        color: #fff;
+      }
+
+      .active {
+        border-color: rgb(216, 216, 216);
+      }
+    }
+  }
+
+  h2 {
+    margin: 0;
+    padding: 24px 0 15px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 32px;
+  }
+
+  p.description {
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+    margin: 0 0 40px;
+  }
+
+  form {
+
+    .viewText {
+      display: inline-flex;
+      align-items: center;
+      width: 100%;
+      color: #fff;
+      opacity: 0.8;
+
+      p {
+        margin: 0;
+        font-weight: 600;
+        font-size: 16px;
+      }
+
+      svg {
+        font-size: 18px;
+        margin-left: 10px;
+      }
+    }
+
+    .form-group {
+      label {
+        color: #fff;
+        margin-bottom: 10px;
+      }
+
+      input {
+        border: 1px solid #ddd;
+        font-weight: 600;
+        padding: 10px 15px;
+        height: auto;
+
+        &::placeholder {
+          color: #fff !important;
+          opacity: 0.4 !important;
+        }
+      }
+
+      .form-text {
+        font-weight: 600;
+        font-size: 13px;
+        opacity: 0.6;
+        color: #fff !important;
+      }
+
+      .textError {
+        color: #fd3c3c !important;
+      }
+    }
+
+    .btnUpdate {
+      width: 100%;
+      margin: 24px 0;
+      padding: 10px 15px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .btnCancel {
+      margin: 24px 0;
+      padding: 10px 0;
+      color: #333;
+      font-weight: 600;
+      font-size: 16px;
+      color: #fff;
+    }
+  }
+}
+
+.darkTheme {
+  .myAccount{
+    .nav-tabs{
+      .nav-item{
+        a{
+          color: #fff;
+        }
+        .active{
+          border-color: #fff;
+        }
+      }
+    }
+    h2{
+      color: #fff;
+    }
+    p.description{
+      color: #fff;
+    }
+
+    form{
+      .viewText{
+        p{
+          color: #fff;
+        }
+        svg{
+          color: #fff;
+        }
+      }
+
+      .form-group{
+        label{
+          color: #fff;
+        }
+        input {
+          color: #fff;
+          &::placeholder{
+            opacity: 0.8;
+          }
+        }
+        .form-text{
+          opacity: 0.8;
+        }
+      }
+
+      .btnCancel{
+        color: #fff;
+      }
+    }
+  }
+}

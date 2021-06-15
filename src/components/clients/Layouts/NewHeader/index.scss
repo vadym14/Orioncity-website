@@ -1,0 +1,61 @@
+.newHeader {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10000;
+  padding: 0px 24px;
+
+  .logoPage {
+    display: inline-block;
+    width: 180px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .navbar {
+    padding: 10px 0;
+    background: none !important;
+  }
+
+  .rightMenu {
+    a {
+      color: #adadad;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 9px 10px 8px;
+      margin-left: 30px;
+
+      &:hover {
+        color: rgb(101, 221, 221);
+        cursor: pointer;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.isFixed {
+  background: #d6d6d694 !important;
+}
+
+
+@media(max-width: 767px) {
+
+  .newHeader {
+    .navbar {
+      .navbar-collapse {
+        .rightMenu {
+          padding: 10px 24px;
+          background: #0c0c0cb0;
+
+          a {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.footerPage {
+  padding: 30px 0;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px -3px 5px 0px rgba(163, 163, 163, 1);
+  -moz-box-shadow: 0px -3px 5px 0px rgba(163, 163, 163, 1);
+  box-shadow: 0px -3px 5px 0px rgba(163, 163, 163, 1);
+
+  .content {
+    p {
+      font-size: 16px;
+      text-align: center;
+      color: #666;
+      margin: 0;
+      font-weight: 600;
+      width: 100%;
+      display: inline-block;
+    }
+
+    .textLeft {
+      text-align: left;
+    }
+
+    .textRight {
+      text-align: right;
+    }
+  }
+}

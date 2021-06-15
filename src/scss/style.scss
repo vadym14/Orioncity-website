@@ -1,0 +1,33 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import CoreUI styles
+@import "~@coreui/coreui-pro/scss/coreui.scss";
+
+// Some temp fixes
+@import "fixes";
+
+// If you want to add something do it here
+@import "custom";
+
+@import './darkTheme';
+
+@import './whiteTheme';
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+button,
+input,
+select,
+label,
+div {
+  font-family: 'Roboto', sans-serif;
+}

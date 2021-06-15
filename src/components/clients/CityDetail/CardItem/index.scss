@@ -1,0 +1,22 @@
+.cardItem{
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 24px;
+  padding: 24px 0 0;
+  cursor: pointer;
+
+  h3{
+    font-size: 24px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .viewImage{
+    img{
+      width: 100%;
+      min-height: 430px;
+    }
+  }
+}
